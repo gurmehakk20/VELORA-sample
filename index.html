@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>VELORA — Timeless by Design | Premium Womenswear</title>
+  <meta name="description" content="VELORA is premium contemporary womenswear: timeless elegance, luxurious fabrics and confident silhouettes. Discover The Autumn Edit.">
+  <meta name="theme-color" content="#160B0C">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://images.unsplash.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header" id="siteHeader">
+    <div class="site-header__inner">
+      <a class="wordmark" href="#home" aria-label="VELORA — home">VELORA</a>
+
+      <nav class="primary-nav" id="primaryNav" aria-label="Primary">
+        <ul>
+          <li><a href="#home" class="is-active">Home</a></li>
+          <li><a href="#shop">Shop</a></li>
+          <li><a href="#collections">Collections</a></li>
+          <li><a href="#story">About</a></li>
+          <li><a href="#journal">Journal</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button class="icon-btn" type="button" id="searchToggle" aria-label="Search" aria-haspopup="dialog">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4.5 4.5"/></svg>
+        </button>
+        <button class="icon-btn" type="button" id="accountBtn" aria-label="Account">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8.5" r="4"/><path d="M4.5 20.5c.8-4 3.8-6 7.5-6s6.700 2 7.500 6"/></svg>
+        </button>
+        <button class="icon-btn bag-btn" type="button" id="bagBtn" aria-label="Shopping bag, 0 items">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8.500h14l-1 12H6z"/><path d="M9 8.500V7a3 3 0 0 1 6 0v1.500"/></svg>
+          <span class="bag-count" id="bagCount" aria-hidden="true" hidden>0</span>
+        </button>
+        <button class="icon-btn menu-toggle" type="button" id="menuToggle" aria-label="Open menu" aria-expanded="false" aria-controls="primaryNav">
+          <span class="menu-toggle__bars" aria-hidden="true"><i></i><i></i></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="home" aria-labelledby="heroTitle">
+      <div class="hero__media ph ph--hero">
+        <img src="https://images.unsplash.com/photo-1566174053879-31528523f8ae?auto=format&fit=crop&w=1800&q=80"
+             alt="Woman in profile wearing a deep burgundy off-the-shoulder gown against a dark studio backdrop"
+             width="1800" height="2250" fetchpriority="high" decoding="async">
+      </div>
+      <div class="hero__content container">
+        <p class="eyebrow reveal">The New Collection</p>
+        <h1 class="display display--xl reveal" id="heroTitle">Timeless<br>by Design</h1>
+        <p class="lede reveal">Refined silhouettes. Luxurious fabrics. A collection made for your next chapter.</p>
+        <a class="btn btn--outline reveal" href="#collections">Shop the Collection <span class="arrow" aria-hidden="true">→</span></a>
+      </div>
+      <a class="scroll-cue" href="#collections" aria-label="Scroll to featured collection"><span>Scroll</span><i aria-hidden="true"></i></a>
+      <div class="hero__index" aria-hidden="true">
+        <span class="is-current">01</span><span>02</span><span>03</span>
+        <i></i>
+      </div>
+    </section>
+
+    <!-- ============ FEATURED COLLECTION ============ -->
+    <section class="section collection" id="collections" aria-labelledby="collectionTitle">
+      <div class="collection__grid container container--wide">
+        <div class="collection__intro reveal">
+          <p class="eyebrow">Featured Collection</p>
+          <h2 class="display display--lg" id="collectionTitle">The Autumn<br>Edit</h2>
+          <p class="body-copy">Rich textures, bold tones and effortless silhouettes — designed for modern romance.</p>
+          <a class="link-arrow" href="#shop">Explore Collection <span class="arrow" aria-hidden="true">→</span></a>
+        </div>
+
+        <div class="collage">
+          <figure class="ph collage__a reveal">
+            <img src="https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?auto=format&fit=crop&w=1000&q=80"
+                 alt="Woman in a burgundy corduroy midi dress standing beside a tall plant" loading="lazy" decoding="async" width="1000" height="1500">
+          </figure>
+          <figure class="ph collage__b reveal">
+            <img src="https://images.unsplash.com/photo-1550639525-c97d455acf70?auto=format&fit=crop&w=700&q=80"
+                 alt="Woman in a black knit top and long black skirt with a layered necklace" loading="lazy" decoding="async" width="700" height="1000">
+          </figure>
+          <figure class="ph collage__c reveal">
+            <img src="https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=800&q=80"
+                 alt="Black quilted leather handbag with a gold chain strap" loading="lazy" decoding="async" width="800" height="530">
+          </figure>
+          <figure class="ph collage__d reveal">
+            <img src="https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?auto=format&fit=crop&w=700&q=80"
+                 alt="Close-up beauty portrait of a woman with auburn hair and deep red lips" loading="lazy" decoding="async" width="700" height="1000">
+          </figure>
+          <figure class="ph collage__e reveal">
+            <img src="https://images.unsplash.com/photo-1485968579580-b6d095142e6e?auto=format&fit=crop&w=800&q=80"
+                 alt="Woman in a tailored dark blazer carrying a burgundy structured handbag on a city street" loading="lazy" decoding="async" width="800" height="1000">
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SHOP BY CATEGORY ============ -->
+    <section class="section categories" id="shop" aria-labelledby="categoriesTitle">
+      <div class="container container--wide">
+        <header class="section-head reveal">
+          <p class="eyebrow">Shop by Category</p>
+          <h2 class="display display--md" id="categoriesTitle">Find Your Silhouette</h2>
+        </header>
+        <ul class="category-grid">
+          <li class="reveal">
+            <a class="category-tile" href="#products" data-filter="dress">
+              <span class="ph"><img src="https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=900&q=80" alt="Woman twirling in a flowing red evening gown" loading="lazy" decoding="async" width="900" height="1200"></span>
+              <span class="category-tile__label"><span>Dresses</span><span class="arrow" aria-hidden="true">→</span></span>
+            </a>
+          </li>
+          <li class="reveal">
+            <a class="category-tile" href="#products" data-filter="outerwear">
+              <span class="ph"><img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=900&q=80" alt="Woman in a deep red tailored coat and sunglasses" loading="lazy" decoding="async" width="900" height="1200"></span>
+              <span class="category-tile__label"><span>Outerwear</span><span class="arrow" aria-hidden="true">→</span></span>
+            </a>
+          </li>
+          <li class="reveal">
+            <a class="category-tile" href="#products" data-filter="accessory">
+              <span class="ph"><img src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=900&q=80" alt="Structured top-handle leather handbag in deep red" loading="lazy" decoding="async" width="900" height="1200"></span>
+              <span class="category-tile__label"><span>Accessories</span><span class="arrow" aria-hidden="true">→</span></span>
+            </a>
+          </li>
+          <li class="reveal">
+            <a class="category-tile" href="#products" data-filter="new">
+              <span class="ph"><img src="https://images.unsplash.com/photo-1550928431-ee0ec6db30d3?auto=format&fit=crop&w=900&q=80" alt="Woman in a wine-red tulle off-the-shoulder dress on a sandy dune" loading="lazy" decoding="async" width="900" height="1200"></span>
+              <span class="category-tile__label"><span>New Arrivals</span><span class="arrow" aria-hidden="true">→</span></span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ BRAND STORY ============ -->
+    <section class="story" id="story" aria-labelledby="storyTitle">
+      <figure class="story__media ph reveal">
+        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=1400&q=80"
+             alt="Woman in a grey tailored blazer seated by a tall window, warm light on her face" loading="lazy" decoding="async" width="1400" height="2000">
+      </figure>
+      <div class="story__text reveal">
+        <p class="eyebrow">Our Story</p>
+        <h2 class="display display--lg" id="storyTitle">More Than<br>Just Fashion</h2>
+        <p class="body-copy">Velora is a celebration of the modern woman — confident, graceful and unapologetically herself. We create timeless pieces that move with you, from boardrooms to candlelit dinners.</p>
+        <a class="link-arrow" href="#journal">Discover Our Story <span class="arrow" aria-hidden="true">→</span></a>
+      </div>
+    </section>
+
+    <!-- ============ FEATURED PRODUCTS ============ -->
+    <section class="section products" id="products" aria-labelledby="productsTitle">
+      <div class="container container--wide">
+        <header class="section-head section-head--split reveal">
+          <div>
+            <p class="eyebrow">The Edit</p>
+            <h2 class="display display--md" id="productsTitle">Featured Pieces</h2>
+          </div>
+          <div class="filter-bar" role="group" aria-label="Filter products">
+            <button type="button" class="filter is-active" data-filter="all" aria-pressed="true">All</button>
+            <button type="button" class="filter" data-filter="dress" aria-pressed="false">Dresses</button>
+            <button type="button" class="filter" data-filter="outerwear" aria-pressed="false">Outerwear</button>
+            <button type="button" class="filter" data-filter="accessory" aria-pressed="false">Accessories</button>
+            <button type="button" class="filter" data-filter="new" aria-pressed="false">New</button>
+          </div>
+        </header>
+
+        <ul class="product-grid" id="productGrid">
+          <li class="product reveal" data-id="nocturne" data-cat="dress new">
+            <div class="product__media ph">
+              <img src="https://images.unsplash.com/photo-1612336307429-8a898d10e223?auto=format&fit=crop&w=900&q=80" alt="Model in a fitted red long-sleeve dress with a floor-length draped train" loading="lazy" decoding="async" width="900" height="1200">
+              <span class="tag">New Arrival</span>
+              <button type="button" class="quick-view-btn" data-quick-view="nocturne">Quick View</button>
+            </div>
+            <div class="product__info"><h3>The Nocturne Dress</h3><p class="price">₹8,900</p></div>
+          </li>
+          <li class="product reveal" data-id="bordeaux" data-cat="outerwear">
+            <div class="product__media ph">
+              <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=900&q=80" alt="Woman in a sheer black layered top against a charcoal backdrop" loading="lazy" decoding="async" width="900" height="1200">
+              <span class="tag">Bestseller</span>
+              <button type="button" class="quick-view-btn" data-quick-view="bordeaux">Quick View</button>
+            </div>
+            <div class="product__info"><h3>The Bordeaux Blazer</h3><p class="price">₹12,500</p></div>
+          </li>
+          <li class="product reveal" data-id="muse" data-cat="dress new">
+            <div class="product__media ph">
+              <img src="https://images.unsplash.com/photo-1539008835657-9e8e9680c956?auto=format&fit=crop&w=900&q=80" alt="Woman in a flowing wrap evening gown with a high thigh slit" loading="lazy" decoding="async" width="900" height="1200">
+              <span class="tag">New Arrival</span>
+              <button type="button" class="quick-view-btn" data-quick-view="muse">Quick View</button>
+            </div>
+            <div class="product__info"><h3>The Muse Evening Gown</h3><p class="price">₹15,900</p></div>
+          </li>
+          <li class="product reveal" data-id="belt" data-cat="accessory">
+            <div class="product__media ph">
+              <img src="https://images.unsplash.com/photo-1492707892479-7bc8d5a4ee93?auto=format&fit=crop&w=900&q=80" alt="Black quilted leather bag with a gold chain strap, styled flat lay" loading="lazy" decoding="async" width="900" height="1200">
+              <button type="button" class="quick-view-btn" data-quick-view="belt">Quick View</button>
+            </div>
+            <div class="product__info"><h3>The Signature Quilted Bag</h3><p class="price">₹3,200</p></div>
+          </li>
+        </ul>
+        <p class="empty-note" id="emptyNote" hidden>Nothing here yet — new pieces arrive soon.</p>
+      </div>
+    </section>
+
+    <!-- ============ NEWSLETTER ============ -->
+    <section class="newsletter" id="journal" aria-labelledby="newsletterTitle">
+      <div class="newsletter__fabric" aria-hidden="true"></div>
+      <div class="newsletter__inner container">
+        <h2 class="display display--md" id="newsletterTitle">Join Our World</h2>
+        <p class="body-copy">Be the first to know about new arrivals, exclusive offers and style inspiration.</p>
+        <form class="newsletter__form" id="newsletterForm" novalidate>
+          <label class="sr-only" for="emailInput">Email address</label>
+          <input type="email" id="emailInput" name="email" placeholder="Your email address" autocomplete="email" required aria-describedby="formMessage">
+          <button type="submit">Subscribe <span class="arrow" aria-hidden="true">→</span></button>
+        </form>
+        <p class="form-message" id="formMessage" role="status" aria-live="polite"></p>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="site-footer__inner container container--wide">
+      <a class="wordmark wordmark--sm" href="#home" aria-label="VELORA — back to top">VELORA</a>
+      <nav aria-label="Footer">
+        <ul>
+          <li><a href="#shop">Shop</a></li>
+          <li><a href="#collections">Collections</a></li>
+          <li><a href="#story">About</a></li>
+          <li><a href="#journal">Journal</a></li>
+          <li><a href="mailto:hello@velora.example">Contact</a></li>
+        </ul>
+      </nav>
+      <ul class="social" aria-label="Social media">
+        <li><a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.500" y="3.500" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17" cy="7" r=".6" fill="currentColor"/></svg></a></li>
+        <li><a href="https://www.pinterest.com/" target="_blank" rel="noopener" aria-label="Pinterest"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M10.500 20.500 13 10m-3.500 3c-.8-3 1.500-5 3.700-4.500 2.200.5 2.200 3.800.3 5.300-1.500 1.100-3.300.6-3.500-.8"/></svg></a></li>
+        <li><a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 21v-8h2.800l.5-3.300H14V7.600c0-1 .4-1.700 1.800-1.700h1.600V3.100C17 3 16.100 3 15.100 3 12.800 3 11 4.400 11 7v2.700H8.200V13H11v8"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="site-footer__legal container container--wide">
+      <p>© <span id="year">2026</span> VELORA. All rights reserved. A frontend demonstration.</p>
+      <ul>
+        <li><a href="#" data-demo-link>Privacy Policy</a></li>
+        <li><a href="#" data-demo-link>Terms</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <!-- ============ OVERLAYS ============ -->
+  <div class="overlay" id="searchOverlay" role="dialog" aria-modal="true" aria-label="Search" hidden>
+    <form class="search-panel" id="searchForm" role="search">
+      <label class="sr-only" for="searchInput">Search products</label>
+      <input type="search" id="searchInput" placeholder="Search dresses, blazers, accessories…" autocomplete="off">
+      <button type="submit" class="btn btn--outline">Search</button>
+      <button type="button" class="icon-btn" data-close aria-label="Close search"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button>
+      <p class="form-message" id="searchMessage" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+
+  <div class="overlay" id="quickView" role="dialog" aria-modal="true" aria-labelledby="qvTitle" hidden>
+    <div class="qv">
+      <button type="button" class="icon-btn qv__close" data-close aria-label="Close quick view"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button>
+      <div class="qv__media ph"><img id="qvImage" alt=""></div>
+      <div class="qv__body">
+        <p class="eyebrow" id="qvLabel">Quick View</p>
+        <h3 class="display display--md" id="qvTitle"></h3>
+        <p class="price" id="qvPrice"></p>
+        <p class="body-copy" id="qvDesc"></p>
+        <fieldset class="sizes" id="qvSizes">
+          <legend>Size</legend>
+        </fieldset>
+        <button type="button" class="btn btn--solid" id="qvAdd">Add to Bag</button>
+        <p class="form-message" id="qvMessage" role="status" aria-live="polite"></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
